@@ -33,25 +33,37 @@ java -jar cevo.jar put.ci.cevo.experiments.gecco2015tetris.TetrisEvaluateAgentsP
 
 To run the experiments described in the paper (for a given seed):
 ```bash
-> java -Xmx2g -Dlog4j.configuration=file:log4j.properties -Dresults_dir=results/BI-CEM/123 -Dseed=123 -Dframework.properties=configs/tetris/BI-p1000_g100_CEM.properties -jar cevo.jar put.ci.cevo.experiments.gecco2015tetris.FeaturesBasedTetrisExperiment
+> java -Xmx2g -Dlog4j.configuration=file:log4j.properties -Dresults_dir=results/BI-CEM/123 
+  -Dseed=123 -Dframework.properties=configs/tetris/BI-p1000_g100_CEM.properties -jar cevo.jar 
+  put.ci.cevo.experiments.gecco2015tetris.FeaturesBasedTetrisExperiment
 ```
 
 ```bash
-> java -Xmx2g -Dlog4j.configuration=file:log4j.properties -Dresults_dir=results/BI-CMAES/123 -Dseed=123 -Dframework.properties=configs/tetris/BI-p1000_g100_CMAES.properties -jar cevo.jar put.ci.cevo.experiments.gecco2015tetris.FeaturesBasedTetrisExperiment
+> java -Xmx2g -Dlog4j.configuration=file:log4j.properties -Dresults_dir=results/BI-CMAES/123 
+  -Dseed=123 -Dframework.properties=configs/tetris/BI-p1000_g100_CMAES.properties -jar cevo.jar
+  put.ci.cevo.experiments.gecco2015tetris.FeaturesBasedTetrisExperiment
 ```
 
 ```bash
-> java -Xmx2g -Dlog4j.configuration=file:log4j.properties -Dresults_dir=results/NTuples3x3-CEM/123 -Dseed=123 -Dframework.properties=configs/tetris/all-3x3_p1000_g100_CEM.properties -jar cevo.jar put.ci.cevo.experiments.gecco2015tetris.NTuplesTetrisExperiment
+> java -Xmx2g -Dlog4j.configuration=file:log4j.properties -Dresults_dir=results/NTuples3x3-CEM/123 
+  -Dseed=123 -Dframework.properties=configs/tetris/all-3x3_p1000_g100_CEM.properties -jar cevo.jar
+  put.ci.cevo.experiments.gecco2015tetris.NTuplesTetrisExperiment
 ```
 
 ```bash
-> java -Xmx2g -Dlog4j.configuration=file:log4j.properties -Dresults_dir=results/NTuples3x3-VD_CMAES/123 -Dseed=123 -Dframework.properties=configs/tetris/all-3x3_p1000_g100_CMAES-VD.properties -jar cevo.jar put.ci.cevo.experiments.gecco2015tetris.NTuplesTetrisExperiment
+> java -Xmx2g -Dlog4j.configuration=file:log4j.properties -Dresults_dir=results/NTuples3x3-VD_CMAES/123 
+  -Dseed=123 -Dframework.properties=configs/tetris/all-3x3_p1000_g100_CMAES-VD.properties -jar cevo.jar 
+  put.ci.cevo.experiments.gecco2015tetris.NTuplesTetrisExperiment
 ```
 
 ```bash
-> java -Xmx2g -Dlog4j.configuration=file:log4j.properties -Dexperiment.output=results/TDL-4x4 -Dexperiment.seed=123 -Dframework.properties=configs/tetris/tdl-4x4_alpha-0001_exp-01_dec.properties -jar cevo.jar put.ci.cevo.experiments.gecco2015tetris.TDLTetrisExperiment
+> java -Xmx2g -Dlog4j.configuration=file:log4j.properties -Dexperiment.output=results/TDL-4x4 
+  -Dexperiment.seed=123 -Dframework.properties=configs/tetris/tdl-4x4_alpha-0001_exp-01_dec.properties -jar cevo.jar
+  put.ci.cevo.experiments.gecco2015tetris.TDLTetrisExperiment
 ```
 
 ```bash
-> java -Xmx2g -Dlog4j.configuration=file:log4j.properties -Dexperiment.output=results/TDL-4x4 -Dexperiment.seed=123 -Dframework.properties=configs/tetris/tdl-3x3_alpha-0001_exp-01_dec.properties -jar cevo.jar put.ci.cevo.experiments.gecco2015tetris.TDLTetrisExperiment
+> java -Xmx2g -Dlog4j.configuration=file:log4j.properties -Dexperiment.output=results/TDL-4x4 
+  -Dexperiment.seed=123 -Dframework.properties=configs/tetris/tdl-3x3_alpha-0001_exp-01_dec.properties -jar cevo.jar 
+  put.ci.cevo.experiments.gecco2015tetris.TDLTetrisExperiment
 ```
