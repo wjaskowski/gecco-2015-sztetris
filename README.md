@@ -3,5 +3,5 @@
 <center>
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=0bJFt2ltPyA
 " target="_blank"><img src="http://img.youtube.com/vi/0bJFt2ltPyA/0.jpg" 
-alt="IMAGE ALT TEXT HERE" width="800" height="600" border="10" /></a>
+alt="IMAGE ALT TEXT HERE" width="640" height="480" border="10" /></a>
 </center>
